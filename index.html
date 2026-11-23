@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ganesh Rakte | Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#f8fafc;color:#1e293b}
+header{background:#0f172a;color:white;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+header nav{display:flex;gap:20px}
+header nav a{color:#cbd5e1;text-decoration:none;font-size:14px}
+.hero{display:grid;grid-template-columns:1.2fr 0.8fr;gap:30px;padding:70px 8%;background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%);color:white;align-items:center}
+.hero h1{font-size:48px;line-height:1.1} .hero h1 span{color:#38bdf8}
+.hero p{margin-top:12px;color:#cbd5e1}
+.btn{display:inline-block;margin-top:20px;background:#38bdf8;color:#0f172a;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:700}
+.btn-outline{display:inline-block;margin-top:12px;border:1px solid #38bdf8;color:#38bdf8;padding:10px 22px;border-radius:30px;text-decoration:none;font-weight:600;font-size:14px}
+.section{padding:50px 8%}
+.grid-layout{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.flex-layout{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.card{background:white;border:1px solid #e2e8f0;padding:22px;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.05)}
+.tag{background:#e0f2fe;color:#0369a1;padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600}
+footer{background:#0f172a;color:#94a3b8;text-align:center;padding:35px 8%}
+footer a{color:#38bdf8;text-decoration:none}
+.social{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:15px 0}
+.social a{padding:8px 16px;background:#1e293b;border-radius:20px;font-size:14px}
+.stats{display:flex;gap:15px;margin-top:25px;flex-wrap:wrap}
+.stat-box{background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.2);padding:14px 22px;border-radius:14px;text-align:center}
+.stat-box b{font-size:24px;color:#38bdf8;display:block}
+.stat-box span{font-size:13px;color:#cbd5e1}
+@media(max-width:800px){.hero{grid-template-columns:1fr;text-align:center}.hero h1{font-size:34px}.stats{justify-content:center}}
+</style>
+</head>
+<body>
+
+<header>
+  <h3>Ganesh Rakte</h3>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#exp">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#cert">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="about">
+  <div>
+    <h1>Hi, I'm <span>Ganesh Rakte</span></h1>
+    <p>Computer Teacher @ Parth Computer, Beed | BE CSE Student @ Adsul Technical Campus, Chas</p>
+    <p style="margin-top:10px;font-size:13px;color:#94a3b8">Ahilyanagar Shevari | ganeshrakte94200@gmail.com | +91 8275531087</p>
+    
+    <div class="stats">
+      <div class="stat-box"><b>1500+</b><span>Students Taught</span></div>
+      <div class="stat-box"><b>3+</b><span>Certifications</span></div>
+      <div class="stat-box"><b>4+</b><span>Live Projects</span></div>
+    </div>
+
+    <a href="mailto:ganeshrakte94200@gmail.com" class="btn">Hire Me</a>
+  </div>
+  <div style="text-align:center">
+    <div style="width:210px;height:210px;background:#38bdf8;border-radius:30px;margin:auto;display:flex;align-items:center;justify-content:center;color:#0f172a;font-size:85px;font-weight:900">G</div>
+  </div>
+</section>
+
+<section class="section" id="exp">
+  <h2>Experience & Education</h2><br>
+  <div class="grid-layout">
+    <article class="card">
+      <h4>Computer Faculty</h4>
+      <p style="color:#64748b;font-size:14px">Parth Computer, Beed | Aug 2024 - Sep 2026</p>
+      <p style="margin-top:8px">Teaching MS-CIT, Tally Prime, Typing, MS-Office to 100+ Students Monthly. Till now, I have taught more than 1500 students, helping them learn practical skills with simple and easy explanations.</p>
+    </article>
+    <article class="card">
+      <h4>BE, Computer Science & Engineering</h4>
+      <p>Adsul Technical Campus, Chas, Ahilyanagar</p>
+      <p style="color:#64748b;font-size:14px">2026-2030</p>
+      <p style="margin-top:8px">Currently pursuing BE in Computer Science. Focused on practical learning, teaching and building real projects.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="projects" style="background:white">
+  <h2>My Projects</h2>
+  <p style="color:#64748b;margin-top:6px">Live projects built with HTML, CSS & JavaScript</p><br>
+  <div class="grid-layout">
+    <article class="card">
+      <h4>✅ To-Do List App</h4>
+      <p style="margin-top:8px;color:#64748b;font-size:14px">Add, delete & manage daily tasks. Simple and useful app with local storage.</p>
+      <div class="flex-layout"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+      <a href="https://ganeshnrakte.github.io/ToDo-list/" target="_blank" class="btn-outline">🔗 View Live Project →</a>
+    </article>
+    <article class="card">
+      <h4>💳 Responsive Pricing Cards</h4>
+      <p style="margin-top:8px;color:#64748b;font-size:14px">Responsive product pricing cards using CSS Flexbox & Grid. Fully mobile friendly.</p>
+      <div class="flex-layout"><span class="tag">HTML</span><span class="tag">CSS Flexbox</span><span class="tag">Grid</span></div>
+      <a href="https://ganeshnrakte.github.io/Pricing-Cards/" target="_blank" class="btn-outline">🔗 View Live Project →</a>
+    </article>
+    <article class="card">
+      <h4>🌦️ Live Weather App</h4>
+      <p style="margin-top:8px;color:#64748b;font-size:14px">Check live weather of any city using Weather API. Shows temperature, humidity & condition.</p>
+      <div class="flex-layout"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript API</span></div>
+      <a href="https://ganeshnrakte.github.io/Weather-App/" target="_blank" class="btn-outline">🔗 View Live Project →</a>
+    </article>
+    <article class="card">
+      <h4>🛒 Mini E-Commerce - Mini Shop</h4>
+      <p style="margin-top:8px;color:#64748b;font-size:14px">Mini online shop with product listing, cart & search. Complete shopping UI.</p>
+      <div class="flex-layout"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+      <a href="https://ganeshnrakte.github.io/Mini-Shop/" target="_blank" class="btn-outline">🔗 View Live Project →</a>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="cert">
+  <h2>My Certifications</h2><br>
+  <div class="grid-layout">
+    <article class="card" style="border-left:4px solid #38bdf8">
+      <h4>MS-CIT Certified</h4>
+      <p style="color:#64748b;font-size:14px;margin-top:6px">Maharashtra State Certificate in Information Technology</p>
+    </article>
+    <article class="card" style="border-left:4px solid #22c55e">
+      <h4>KLiC Tally Prime with GST Certified</h4>
+      <p style="color:#64748b;font-size:14px;margin-top:6px">Tally Prime + GST Accounting - KLiC Courses</p>
+    </article>
+    <article class="card" style="border-left:4px solid #f59e0b">
+      <h4>MS-CIT AI Master Class Certified</h4>
+      <p style="color:#64748b;font-size:14px;margin-top:6px">Artificial Intelligence Tools & Practical Usage</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" style="background:white">
+  <h2>My Skills</h2>
+  <div class="card">
+    <div class="flex-layout">
+      <span class="tag">MS-Office</span><span class="tag">MS-Excel</span><span class="tag">Tally Prime</span><span class="tag">GST</span><span class="tag">Adobe Photoshop</span><span class="tag">DTP</span><span class="tag">Data Entry</span><span class="tag">Accounting</span><span class="tag">HTML5</span><span class="tag">CSS Flexbox & Grid</span>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer id="contact">
+  <h3 style="color:white">Let's Connect</h3>
+  <div class="social">
+    <a href="mailto:ganeshrakte94200@gmail.com">📧 Email</a>
+    <a href="https://instagram.com/ganesh_n.rakte_94" target="_blank" style="color:#f472b6">📷 @ganesh_n.rakte_94</a>
+    <a href="https://www.linkedin.com/in/ganesh-rakte" target="_blank" style="color:#38bdf8">💼 LinkedIn - Ganesh Rakte</a>
+  </div>
+  <p>ganeshrakte94200@gmail.com | +91 8275531087 | Ahilyanagar</p>
+  <p style="margin-top:12px;font-size:13px">© 2026 Ganesh Rakte | Semantic HTML5 + Flexbox + Grid + Responsive</p>
+</footer>
+
+</body>
+</html>
